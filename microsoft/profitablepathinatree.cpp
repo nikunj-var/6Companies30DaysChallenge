@@ -1,5 +1,21 @@
 // LeetCode Link-https://leetcode.com/problems/most-profitable-path-in-a-tree/submissions/871211897/
 
+// Approach-
+
+// step1- create a adjacency list-
+//          (an adjacency list is a collection of unordered lists used to representfinite graph. Each unordered
+//           list within an adjacency list describes the set of neighbors of a particular vertex in the graph).
+
+// step2- Find parent and distance of each vertex using dfs.
+
+// step3- For vector, amount divide the amount of the index at which bob and alice come together.
+
+// step4- traverse the graph using dfs and find the maxamount.
+
+// The Time complexity of above approach is-O(V+E)
+//      where V is the no of vertex and E is the no of edges.
+// Space Complexity-O(|V|)
+
 #include <iostream>
 #include <vector>
 #include <climits>

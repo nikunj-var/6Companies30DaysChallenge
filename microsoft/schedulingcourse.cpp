@@ -1,5 +1,22 @@
 // LeetCode Link-https://leetcode.com/problems/course-schedule/submissions/868594271/
 
+// Approach-
+
+// step1- create a adjacency list-
+//          (an adjacency list is a collection of unordered lists used to representfinite graph. Each unordered
+//           list within an adjacency list describes the set of neighbors of a particular vertex in the graph).
+
+// step2- Apply topological sort on the graph.
+//          (a topological sort is a graph traversal in which each node v is visited only after all its
+//           dependencies are visited).
+
+// step3- After applying topological sort if the nodes visited in topological sort is equal to the number of
+//          nodes in graph,then we can finish all scheduled course otherwise we can't.
+
+// The Time complexity of above approach is-O(V+E)
+//      where V is the no of vertex and E is the no of edges.
+// Space Complexity-O(|V|)
+
 #include <iostream>
 #include <vector>
 #include <queue>
