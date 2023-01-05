@@ -1,5 +1,9 @@
 // Leetcode Link-https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
 
+// Approach- Dijkstra Algorithm
+// Time Complexity-O(V^2)
+// Space Complexity-O(V)
+
 #include <iostream>
 #include <vector>
 #include <queue>

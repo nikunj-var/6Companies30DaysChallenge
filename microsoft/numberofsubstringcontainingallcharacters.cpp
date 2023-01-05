@@ -1,5 +1,11 @@
 // LeetCode link-https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/868959291/
 
+
+// Approach- Sliding Window Concept
+
+// Time Compexity-O(n)
+// Space Complecity-O(1)
+ 
 #include <iostream>
 #include <vector>
 #include <unordered_map>

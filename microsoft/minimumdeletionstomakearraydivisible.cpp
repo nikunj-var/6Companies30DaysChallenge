@@ -1,5 +1,10 @@
 // LeetCode link-https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/submissions/871108251/
 
+
+// Approach- Using Priority Queue
+// Time Complexity-O(n)
+// Space Complexity-O(n)
+
 #include <iostream>
 #include <queue>
 #include <vector>
